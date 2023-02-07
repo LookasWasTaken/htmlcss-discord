@@ -40,6 +40,7 @@
     --main-purple: #5865f2;
     --light-black: #23272a;
     --pure-white: #fff;
+    --smoke-white: #f6f6f6;
     --font-discord: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-discordfabio: "Whitney", 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -103,21 +104,27 @@
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    margin: 10rem 0;
+    margin: -1;
 }
 
 .main_body_reverse {
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
-    margin: 10rem 0;
-    /* qui sfondo */
+    margin: -1rem;
+    background-color: var(--smoke-white);
 }
 
-.main_bg_image{
-    background-image: url(/assets/img/wave.svg);
-    background-size: cover;
-    opacity: 0.5;
+.wave{
+    color:var(--pure-white);
+    max-height: 50%;
+    background-color: var(--smoke-white);
+
+}
+
+.wave_smoke{
+    color: var(--smoke-white);
+
 }
 
 .main_text {
@@ -153,7 +160,8 @@
     text-align: center;
     padding-bottom: 5rem;
     padding: 5rem;
-    /* qui sfondo */
+    margin: -1rem;
+    background-color: var(--smoke-white);
 }
 
 /* /endregion main */
