@@ -111,6 +111,13 @@
     justify-content: space-around;
     flex-direction: row-reverse;
     margin: 10rem 0;
+    /* qui sfondo */
+}
+
+.main_bg_image{
+    background-image: url(/assets/img/wave.svg);
+    background-size: cover;
+    opacity: 0.5;
 }
 
 .main_text {
@@ -145,8 +152,8 @@
 .main_footer {
     text-align: center;
     padding-bottom: 5rem;
-    background-color: gray;
     padding: 5rem;
+    /* qui sfondo */
 }
 
 /* /endregion main */
