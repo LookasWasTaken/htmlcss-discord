@@ -63,6 +63,10 @@
     margin: 0 2rem;
 }
 
+.list_inline{
+    display: inline;
+}
+
 /* /endregion navbar */
 
 /* /region title */
@@ -107,7 +111,6 @@
     justify-content: space-around;
     flex-direction: row-reverse;
     margin: 10rem 0;
-    background-color: gray;
 }
 
 .main_text {
@@ -239,3 +242,4 @@ ul{
     padding: 0.7rem;
     font-size: 1.5rem;
 }
+
