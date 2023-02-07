@@ -73,7 +73,7 @@
 /* /region title */
 
 #app-header{
-    background-image: url(./assets/img/jumbo.png);
+    background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 5rem;
@@ -147,7 +147,7 @@
     font-weight: 800;
     margin: auto;
     padding: 3rem;
-    background-image: url(./assets/img/stars.svg);
+    background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
     background-size: contain;
 }
