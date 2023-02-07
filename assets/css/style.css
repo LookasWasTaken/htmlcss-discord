@@ -12,7 +12,16 @@
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    margin: 10rem 0;
+    margin: 5rem 0;
+}
+
+.flex_container_reverse {
+    max-width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    margin: 5rem 0;
 }
 
 .inner_container{
@@ -111,10 +120,15 @@
 }
 
 .text_alt {
-    font-size: 40px;
+    max-width: 70%;
+    font-size: 30px;
     line-height: 1.3;
     font-weight: 800;
-    margin: 3rem 0;
+    margin: auto;
+    padding: 3rem;
+    background-image:url("/assets/img/stars.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .sub_text {
