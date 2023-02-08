@@ -74,9 +74,10 @@
 
 #app-header{
     background-image: url(../img/jumbo.png);
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     padding-bottom: 5rem;
+    background-position: center;
 }
 
 .main_title {
